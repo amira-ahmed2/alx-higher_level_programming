@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    num_avg = len(sys.argv) - 1 
-    
-    if num_avg == 0:
+    num_avg = len(sys.argv) - 1
+
+    if num_avg == 1:
         print("{} arguments:".format(num_avg))
-    elif num_avg == 1:
+    elif num_avg == 0:
         print("{} arguments:".format(num_avg))
     else:
         print("{} arguments:".format(num_avg))
