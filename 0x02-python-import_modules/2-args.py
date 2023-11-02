@@ -1,18 +1,18 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    number = len(sys.argv) - 1
+    num_avg = len(sys.argv) - 1
 
-    if number == 1:
-        print("{} arguments.".format(number))
-    elif number == 0:
-        print("{} argument:".format(number))
+    if num_avg == 1:
+        print("{} arguments.".format(num_avg))
+    elif num_avg == 0:
+        print("{} argument:".format(num_avg))
     else:
-        print("{} argument:".format(number))
+        print("{} arguments:".format(num_avg))
 
-    if number >= 1:
-        number = 0
+    if num_avg >= 1:
+        num_avg = 0
         for i in sys.argv:
-            if number != 0:
-                print("{}: {}".format(number, i))
-            number += 1
+            if num_avg != 0:
+                print("{}: {}".format(num_avg, i))
+            num_avg += 1
