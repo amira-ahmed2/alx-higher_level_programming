@@ -40,6 +40,7 @@ except Exception as e:
 """
 
 # task 4
+"""
 print_square = __import__('4-print_square').print_square
 
 print_square(4)
@@ -55,3 +56,5 @@ try:
 except Exception as e:
     print(e)
 print("")
+
+"""
