@@ -6,8 +6,8 @@ def matrix_divided(matrix, div):
     """divides all elements of a matrix
 
     Args:
-        matrix (_type_): _description_
-        div (_type_): _description_
+        matrix (int,float): _description_
+        div (int): number
     """
     
     if type(div) not in [int, float]:
