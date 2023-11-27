@@ -49,14 +49,14 @@ class Rectangle:
         """Returns the area of the reg"""
         return self.__width * self.__height
 
-    def perimeter(self):
-        """ Return the perimeter of the reg"""
+    def __str__(self) -> str:
+        """presents a diagram of the rectangle defined for an object"""
         if self.__width == 0 or self.__height == 0:
-                    return ("")
+            return ("")
         rectangle = ""
-        for h in range(self.__height):
-            for w in range(self.__width):
+        for column in range(self.__height):
+            for row in range(self.__width):
                 rectangle += "#"
-                if h < self.__height - 1:
-                    rectangle += "\n"
+            if column < self.__height - 1:
+                rectangle += "\n"
         return (rectangle)
