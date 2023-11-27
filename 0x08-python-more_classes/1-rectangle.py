@@ -5,6 +5,12 @@
 class Rectangle:
     """ A class empty class Rectangle"""
     def __init__(self, width=0, height=0):
+        """Initializing this rectangle class
+
+        Args:
+            width (int, 0): width. Defaults to 0.
+            height (int, 0): height. Defaults to 0.
+        """
         self.__width = width
         self.__height = height
 
@@ -19,6 +25,9 @@ class Rectangle:
 
         Args:
             value (int): property
+        Raises:
+            TypeError: if size is not integer
+            ValueError: if size is less than zero
         """
         if value is not int:
             raise TabError("width must be an integer")
@@ -38,6 +47,10 @@ class Rectangle:
 
         Args:
             value (int): property
+
+        Raises:
+            TypeError: if size is not integer
+            ValueError: if size is less than zero
         """
         if value is not int:
             raise TabError("height must be an integer")
