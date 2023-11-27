@@ -62,4 +62,5 @@ class Rectangle:
         return (rectangle)
     
     def __repr__(self):
+        """presents a diagram of the rectangle defined for an object"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
