@@ -14,10 +14,11 @@ class Rectangle:
         self._width = width
         self.__height = height
 
+
     @property
-    def width(self):
-        """retrieves width attribute"""
-        return self.__width
+    def height(self):
+        """retrieves height attribute"""
+        return self.__height
 
     @width.setter
     def width(self, value):
