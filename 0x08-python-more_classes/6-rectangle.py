@@ -17,6 +17,7 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+
         Rectangle.number_of_instances += 1
 
     @property
@@ -67,6 +68,5 @@ class Rectangle:
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
     def __del__(self):
-        """Print the message Bye rectangle..."""
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
