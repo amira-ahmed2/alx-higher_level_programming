@@ -51,17 +51,12 @@ class Rectangle:
 
     def perimeter(self):
         """ Return the perimeter of the reg"""
-        if self.__height == 0 or self.__width == 0:
-            return 0
-        return ((self.__width * 2) + (self.__height * 2))
-
-    def __str__(self) -> str:
-        if self.__height == 0 or self.__width == 0:
-            return 0
-        reg = ""
+        if self.__width == 0 or self.__height == 0:
+                    return ("")
+        rectangle = ""
         for h in range(self.__height):
             for w in range(self.__width):
-                print("#", end="")
-            print()
-        
-        return reg
+                rectangle += "#"
+                if h < self.__height - 1:
+                    rectangle += "\n"
+        return (rectangle)
