@@ -3,7 +3,7 @@
 
 
 class MyInt(int):
-    """Write a class MyInt that inherits from int:"""
+    """Write a class MyInt that inherits from int"""
     def __eq__(self, value):
         return(self.real != value)
     
