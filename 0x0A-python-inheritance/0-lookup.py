@@ -3,6 +3,8 @@
 available attributes and
 methods of an object
 """
+
+
 def lookup(obj):
     """function that returns the list
 available attributes and
