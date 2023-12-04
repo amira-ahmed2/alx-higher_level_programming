@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """class Square"""
-rectangle = __import__('9-rectangle').Rectangle
+Rectangle = __import__('9-rectangle').Rectangle
 
 
-class Square(rectangle):
+class Square(Rectangle):
     """this is an class"""
-    def __init__(self, size, height):
+    def __init__(self, size):
         """intialize Square
 
         Args:
