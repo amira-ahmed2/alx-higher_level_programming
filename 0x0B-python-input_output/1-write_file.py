@@ -4,7 +4,6 @@
 
 def write_file(filename="", text=""):
     """fun is write file
-
     Args:
         filename (str, optional): _description_. Defaults to "".
         text (str, optional): _description_. Defaults to "".
