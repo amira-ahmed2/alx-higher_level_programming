@@ -8,5 +8,5 @@ if (process.argv[2] === undefined || isNaN(process.argv[2])) {
 	  while (i < number) {
 		      console.log('X'.repeat(number));
 		      i++;
-		    }
+	}
 }
