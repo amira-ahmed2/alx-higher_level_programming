@@ -12,17 +12,16 @@ class Rectangle {
         console.log('X'.repeat(this.width));
       }
     }
-
     rotate() {
         let temp = 0;
         temp = this.height;
         this.height = this.width;
         this.width = temp;
     }
-
     double() {
         this.width *= 2;
         this.height *= 2;
     }
   }
+
 module.exports = Rectangle;
