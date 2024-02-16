@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-This lists all cities from 
-the database hbtn_0e_4_usa
+This script lists all cities from
+the database `hbtn_0e_4_usa`.
 """
 
 import MySQLdb
