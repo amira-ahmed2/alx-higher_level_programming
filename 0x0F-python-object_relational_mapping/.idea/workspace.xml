@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e001992-d621-4f12-8352-4f1e030e109d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/model_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New Python File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_state.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
