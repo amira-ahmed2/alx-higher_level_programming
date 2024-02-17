@@ -4,11 +4,9 @@ This contains the class definition of a city
 and an instance Base = declarative_base():
 """
 
-from sqlalchemy.ext.declarative import declarative_base
 from model_state import Base, State
 from sqlalchemy import Column, Integer, String, ForeignKey
 
-Base = declarative_base()
 
 class City(Base):
     """State City
