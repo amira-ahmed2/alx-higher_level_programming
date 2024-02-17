@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e001992-d621-4f12-8352-4f1e030e109d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/13-model_state_delete_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-model_state_delete_a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-model_city_fetch_by_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-model_city_fetch_by_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_city.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_city.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
