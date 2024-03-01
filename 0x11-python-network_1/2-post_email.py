@@ -11,8 +11,9 @@ import urllib.request
 
 if __name__ == "__main__":
     url = sys.argv[1]
-    values = {"email": sys.argv[2]}
-    data = urllib.parse.urlencode(values).encode('ascii')
-    request = urllib.request.Request(url, data)
-    with urllib.request.urlopen(request) as response:
-        print(response.read().decode("utf-8"))
+    request = urllib.request.Request(url)
+    try:
+        with urllib.request.urlopen(request) as response:
+            print(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        print("Error code: {}".format(e.code))
