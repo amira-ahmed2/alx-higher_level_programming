@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-import urllib.request
-
+"""that takes in a URL, sends a request to
+the URL and displays the body of
+the response (decoded in utf-8).
+"""
+import sys
+import requests
 
 if __name__ == "__main__":
-    req = urllib.request.Request('https://alx-intranet.hbtn.io/status')
-    with urllib.request.urlopen(req) as response:
-        body = response.read()
-        print("Body response:")
-        print("\t- type: {}".format(type(body)))
-        print("\t- content: {}".format(body))
-        print("\t- utf8 content: {}".format(body.decode("utf-8")))
+    url = sys.argv[1]
+    req = requests.get(url)
+    if req.status_code >= 400:
+        print("Error code: {}".format(req.status_code))
+    else:
+        print(req.text)
